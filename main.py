@@ -110,7 +110,7 @@ def main():
                 if event.type == pygame.MOUSEBUTTONDOWN:
                     if WIDTH // 2 - 100 <= mouse[0] <= WIDTH // 2 + 100 and HEIGHT // 2 - 50 <= mouse[1] <= HEIGHT // 2 + 50:
                         state = 'play'
-                        #cube.scramble()
+                        cube.scramble()
             mouse = pygame.mouse.get_pos()
             draw_menu_window()
 
